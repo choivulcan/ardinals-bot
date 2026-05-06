@@ -1,0 +1,19 @@
+{
+  "llm": {
+    "base_url": "https://openrouter.ai/api/v1",
+    "model": "anthropic/claude-sonnet-4",
+    "api_key": "sk-or-v1-YOUR_OPENROUTER_KEY_HERE",
+    "extra_headers": {}
+  },
+  "wallets": [
+    {
+      "name": "W1",
+      "session_id": null
+    },
+    {
+      "name": "W2",
+      "session_id": "ardi-2"
+    }
+  ],
+  "log_file": "grinder.log"
+}
